@@ -24,7 +24,7 @@ defmodule Solid.Mixfile do
 
   defp deps do
     [
-      {:nimble_parsec, "~> 1.1.0"},
+      {:nimble_parsec, "~> 1.0"},
       {:jason, "~> 1.0", only: :test},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false}
