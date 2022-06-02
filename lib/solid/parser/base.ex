@@ -36,18 +36,18 @@ defmodule Solid.Parser.Base do
 
       base_tags =
         [
-          Solid.Tag.Break,
-          Solid.Tag.Continue,
-          Solid.Tag.Counter,
-          Solid.Tag.Comment,
-          Solid.Tag.Assign,
-          Solid.Tag.Capture,
+          # Solid.Tag.Break,
+          # Solid.Tag.Continue,
+          # Solid.Tag.Counter,
+          # Solid.Tag.Comment,
+          # Solid.Tag.Assign,
+          # Solid.Tag.Capture,
           Solid.Tag.If,
-          Solid.Tag.Case,
-          Solid.Tag.For,
-          Solid.Tag.Raw,
-          Solid.Tag.Cycle,
-          Solid.Tag.Render
+          # Solid.Tag.Case,
+          # Solid.Tag.For,
+          # Solid.Tag.Raw,
+          # Solid.Tag.Cycle,
+          # Solid.Tag.Render
         ]
         |> Enum.map(fn tag ->
           tag(tag.spec(__MODULE__), tag)
