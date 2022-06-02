@@ -39,7 +39,7 @@ defmodule Solid.Parser.Base do
           # Solid.Tag.Break,
           # Solid.Tag.Continue,
           # Solid.Tag.Counter,
-          # Solid.Tag.Comment,
+          Solid.Tag.Comment,
           # Solid.Tag.Assign,
           # Solid.Tag.Capture,
           Solid.Tag.If,
